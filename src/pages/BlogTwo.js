@@ -37,19 +37,19 @@ export default function BlogTwo() {
     return(
         <>
             <SEO title="Blog" />
-            
-            <Header 
-                brandLogo="assets/img/core-img/logo-white.png" 
-                headerStyle="" 
-                buttonText="Log In" 
-                buttonColor="btn-warning" 
+
+            <Header
+                brandLogo="assets/img/core-img/logo-white.png"
+                headerStyle=""
+                buttonText="Log In"
+                buttonColor="btn-warning"
             />
 
-            <BreadcrumbOne 
-                breadcrumbImage="assets/img/bg-img/7.jpg" 
-                breadcrumbTitle="Blog Two" 
-                homePageUrl="/" 
-                homePageText="Home" 
+            <BreadcrumbOne
+                breadcrumbImage="assets/img/bg-img/7.jpg"
+                breadcrumbTitle="Blog Two"
+                homePageUrl="/"
+                homePageText="Home"
                 currentPageText="Blog"
             />
 
@@ -98,15 +98,15 @@ export default function BlogTwo() {
 
             <Divider />
 
-            <CtaThree 
-                title="Let's start with the simple way to create a website." 
-                btnUrl="/" 
-                btnText="Buy Now" 
+            <CtaThree
+                title="Let's start with the simple way to create a website."
+                btnUrl="/"
+                btnText="Buy Now"
             />
 
-            <Footer 
-                footerLogo="assets/img/core-img/logo.png" 
-                footerStyle="" 
+            <Footer
+                footerLogo="assets/img/core-img/logo.png"
+                footerStyle=""
             />
         </>
     )

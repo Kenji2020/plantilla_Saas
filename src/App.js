@@ -57,7 +57,7 @@ export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" index element={<DemoPage />} />
+        <Route path="/" index element={<BlogTwo />} />
         <Route path="/creative-agency" element={<CreativeAgency />} />
         <Route path="/business-studio" element={<BusinessStudio />} />
         <Route path="/saas-landing" element={<SaasLanding />} />
@@ -86,7 +86,7 @@ export default function App() {
         <Route path="/about-creative" element={<AboutCreative />} />
         <Route path="/service-standard" element={<ServiceStandard />} />
         <Route path="/service-creative" element={<ServiceCreative />} />
-        
+
         <Route path="/team" element={<AllTeamMembers />} />
         <Route path="/pricing-plan" element={<PricingPlan />} />
         <Route path="/faq" element={<FAQ />} />
@@ -97,7 +97,7 @@ export default function App() {
         <Route path="/register" element={<Register />} />
         <Route path="/login" element={<Login />} />
         <Route path="/forget-password" element={<ForgetPassword />} />
-        
+
         <Route path="/not-found" element={<NotFound />} />
         <Route path="*" element={<Navigate to="/not-found" />} />
       </Routes>
